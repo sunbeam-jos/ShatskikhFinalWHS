@@ -14,7 +14,7 @@ body {
 .header {
   width: 180px;
   height: 47px;
-  background: bottom no-repeat url(/images/logo.svg);
+  background: bottom no-repeat url(./images/logo.svg);
   background-size: 100%;
   margin-bottom: 80px;
   padding-top: 60px;

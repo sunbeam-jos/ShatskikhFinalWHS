@@ -22,7 +22,7 @@ body {
 
 .description {
   padding: 17px 47% 241px 0;
-  background: top right no-repeat url(/images/girl.svg);
+  background: top right no-repeat url(./images/girl.svg);
   background-size: 48%;
   margin-bottom: 55px;
 }
@@ -124,19 +124,19 @@ body {
 }
 
 .item__image_medal {
-  background: no-repeat url(/images/medal.svg);
+  background: no-repeat url(./images/medal.svg);
   background-size: 100%;
   margin-bottom: 24px;
 }
 
 .item__image_briefcase {
-  background: no-repeat url(/images/briefcase.svg);
+  background: no-repeat url(./images/briefcase.svg);
   background-size: 100%;
   margin-bottom: 26px;
 }
 
 .item__image_bank-note {
-  background: no-repeat url(/images/bank-note.svg);
+  background: no-repeat url(./images/bank-note.svg);
   background-size: 100%;
   margin-bottom: 26px;
 }
@@ -253,7 +253,7 @@ body {
 
   .description {
     padding: 4px 0 91% 0;
-    background: bottom no-repeat url(/images/girl.svg);
+    background: bottom no-repeat url(./images/girl.svg);
     background-size: 100%;
     margin: 0;
   }

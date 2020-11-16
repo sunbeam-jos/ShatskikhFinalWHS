@@ -73,7 +73,7 @@ body {
   margin-bottom: 55px;
 }
 
-.list__item {
+.list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,29 +83,29 @@ body {
   box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.25);
 }
 
-.list__item:last-child {
+.list:last-child {
   margin-right: 0;
 }
 
-.list__item_first {
+.list_first {
   padding: 48px 5px 66px 3px;
   margin-right: 22px;
 }
 
-.list__item_center {
+.list_center {
   padding: 0 1px 0 0;
 }
 
-.list__item_last {
+.list_last {
   padding: 24px 18px 42px 15px;
 }
 
-.item__image {
+.list__image {
   width: 115px;
   height: 115px;
 }
 
-.item__title {
+.list__title {
   font: 800 30px/37px Gilroy, Arial, Helvetica, sans-serif;
   margin: 0;
   margin-bottom: 24px;
@@ -113,29 +113,29 @@ body {
   width: 85%;
 }
 
-.item__title_margin {
+.list__title_margin {
   margin-bottom: 11px;
 }
 
-.item__text {
+.list__text {
   font: 800 20px/25px Gilroy, Arial, Helvetica, sans-serif;
   margin: 0;
   width: 72%;
 }
 
-.item__image_medal {
+.list__image_medal {
   background: no-repeat url(./images/medal.svg);
   background-size: 100%;
   margin-bottom: 24px;
 }
 
-.item__image_briefcase {
+.list__image_briefcase {
   background: no-repeat url(./images/briefcase.svg);
   background-size: 100%;
   margin-bottom: 26px;
 }
 
-.item__image_bank-note {
+.list__image_bank-note {
   background: no-repeat url(./images/bank-note.svg);
   background-size: 100%;
   margin-bottom: 26px;
@@ -292,30 +292,30 @@ body {
     display: block;
   }
 
-  .list__item {
+  .list {
     margin: 0;
     margin-bottom: 20px;
   }
 
-  .item__image {
+  .list__image {
     width: 85px;
     height: 85px;
     margin-bottom: 14px;
   }
 
-  .list__item_first {
+  .list_first {
     padding: 44px 0px 42px 0px;
   }
 
-  .list__item_center {
+  .list_center {
     padding: 41px 1px 41px 0;
   }
 
-  .list__item_last {
+  .list_last {
     padding: 42px 18px 43px 15px;
   }
 
-  .item__title {
+  .list__title {
     font: 800 20px/25px Gilroy, Arial, Helvetica, sans-serif;
     margin: 0;
     margin-bottom: 15px;
@@ -323,16 +323,16 @@ body {
     width: 85%;
   }
 
-  .item__title_margin {
+  .list__title_margin {
     margin-bottom: 7px;
   }
 
-  .item__text {
+  .list__text {
     font: 800 10px/12px Gilroy, Arial, Helvetica, sans-serif;
     width: 52%;
   }
 
-  .item__text_width {
+  .list__text_width {
     width: 54%;
   }
 
